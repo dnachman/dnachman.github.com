@@ -1,1 +1,62 @@
-Hello, Github!
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<style type="text/tailwindcss">
+		@layer components {
+			.btn {
+				@apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+			}
+			.btn-blue {
+				@apply bg-blue-500 text-white hover:bg-blue-700 focus:ring-blue-400;
+			}
+			.btn-white {
+				@apply bg-white text-black hover:bg-gray-200 focus:ring-blue-400;
+			}
+		}
+  </style>
+</head>
+
+<body class="bg-gray-700">
+	<div class="container mx-auto w-80 font-sans p-4">
+		<div>
+			<img class="" src="dnachman-2022.jpg" />
+		</div>
+		<div class="bg-gray-800 text-white">
+			<div class="p-2">
+				<div class="text-center text-4xl">David Nachman</div>
+				<div class="text-center text-xl text-orange-500">Application Architect</div>
+			</div>
+			<div class="columns-2 p-2">
+				<a href="mailto:david@nachman.org">
+					<div class="btn btn-white">
+						Email
+					</div>
+				</a>
+				<a href="https://linkedin.com/in/dnachman">
+					<div class="btn btn-blue">
+						LinkedIn
+					</div>
+				</a>
+			</div>
+			<div class="p-2">
+				<div class="text-xl font-bold">About</div>
+				<div>I do lots of stuff...</div>
+			</div>
+			<div class="p-2">
+				<div class="text-xl font-bold">Interests</div>
+				<div>I do lots of stuff...</div>
+			</div>
+		</div>
+		<div class="bg-gray-900">
+			<!-- icons -->
+			icons here
+		</div>
+	</div>
+
+</body>
+
+</html>

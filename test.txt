@@ -1,3 +1,0 @@
-testing git configuration
-
-and now a second modification
